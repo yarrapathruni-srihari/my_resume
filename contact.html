@@ -6,8 +6,28 @@
     </head>
     <body>
         <!-- this is the contact details that are written in anchor tag in another file -->
-        <h1><strong>My Contact Details</strong></h1>
-        <p><b>My Number</b> is 9182055370</p>
+        <h3><strong>My Contact Details</strong></h3>
+        <p>My Number is 91820550</p>
+        <p>My email is srihari12345@gmail.com</p>
         <p>I live in pathuru,Narasaraopeta</p>
+        <p><strong>For any query</strong></p>
+        <form action="mailto:srihari4338@gmail.com" method="post" enctype="text/plain">
+            <!-- here action means when the user type his username email
+            his data will be goes to the mail mentioned in action
+            and method="post" is telling the form to post the data in mail
+            and we are encrypting the data into plain text -->
+            <label>Username:</label>
+            <input type="text" name="username"><br>
+            <br>
+            <label>Email</label>
+            <input type="email" name="useremail"><br>
+            <br>
+            <label>Password:</label>
+            <input type="password"><br>
+            <br>
+            <label>Your message</label><br>
+            <textarea name="usermessage" rows="5" cols="50"></textarea><br>
+            <input type="submit">
+        </form>
     </body>
 </html>
